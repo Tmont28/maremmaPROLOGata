@@ -6,9 +6,9 @@ Tip.
 per caricare il file:
 </p>
 <ol>
-	<li> apri terminale </li>
-	<li> naviga nella stessa cartella dove è salvato il file </li>
-	<li>scrivi </li>
+	<li> apri terminale, </li>
+	<li> naviga nella stessa cartella dove è salvato il file, </li>
+	<li>avvia swi-prolog e inserisci il comando: </li>
 </ol>
 
 		[nomefile].
