@@ -1,18 +1,23 @@
-programmi prolog svolti in classe
 
+## programmi prolog svolti in classe
 
-Tip.
-	per caricare il file:
-		1) apri terminale
-		2) naviga nella stessa cartella dove è salvato il file
-		3) scrivi 
-
-		[nomefile].
+<p>
+Tip.	
+per caricare il file:
+</p>
+<ol>
+	<li> apri terminale </li>
+	<li>) naviga nella stessa cartella dove è salvato il file </li>
+	<li>scrivi </li>
+</ol>
+	[nomefile].
+<p>		
+(senza estensione)
+in questo caso :
+</p>		
+	[treemap].
 		
-		(senza estensione)
-	in questo caso
-		
-		[treemap].
-		
-		in questo modo prolog lo apre come se fosse una lista e esegue tutto il contenuto.
-		risparmiamo il path completo ogni volta.
+<p>
+in questo modo prolog lo apre come se fosse una lista e esegue tutto il contenuto.
+risparmiamo il path completo ogni volta.
+</p>
