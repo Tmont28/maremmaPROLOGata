@@ -10,12 +10,15 @@ per caricare il file:
 	<li>) naviga nella stessa cartella dove è salvato il file </li>
 	<li>scrivi </li>
 </ol>
-	[nomefile].
+
+		[nomefile].
+
 <p>		
 (senza estensione)
 in questo caso :
 </p>		
-	[treemap].
+
+		[treemap].
 		
 <p>
 in questo modo prolog lo apre come se fosse una lista e esegue tutto il contenuto.
