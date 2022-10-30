@@ -14,7 +14,7 @@ per caricare il file:
 		[nomefile].
 
 <p>		
-(senza estensione)
+(senza estensione)  
 in questo caso :
 </p>		
 
