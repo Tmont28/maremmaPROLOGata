@@ -35,3 +35,31 @@ part(E, [E | _]).
 part(E, [_ | Es]):-
     part(E, Es).
 
+
+
+%conta(T,L,N) /3
+%T = a -> L = [a,a,a,a,b] N = 4.
+% [1 , 2, 1] t = 1
+conta(_, [], 0).
+
+conta(T, [X| Xs], N) :-
+   	T = X,
+    conta(T, Xs, K),!,
+    N is K + 1.
+
+conta(T, [_| Xs], N) :-
+     conta(T, Xs, N).
+
+% insert(N,L,K) -> N elemento da inserire L la lista in cui inseriere
+% K risultato finale -> K deve avere tutto ordinato.
+
+% insert(3,[[1,2,3,4,5],[1,2,3,3,4]) = TRUE
+% K = 2 [1,2,3,4]
+
+insert(X, [], [X]).
+
+insert(X, [L1| L1s], [X, L1| L1s]):-
+    X @< L1, !.
+
+insert(X, [L1| L1s], [L1|L2s]) :-
+    insert(X, L1s, L2s).
